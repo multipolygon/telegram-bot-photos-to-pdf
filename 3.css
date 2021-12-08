@@ -1,0 +1,9 @@
+img:first-child {
+  max-width: 70vw;
+  max-height: 45vh;
+}
+
+img {
+  max-width: 45vw;
+  max-height: 45vh;
+}
