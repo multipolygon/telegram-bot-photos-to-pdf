@@ -1,9 +1,10 @@
 img:first-child {
-  max-width: 70vw;
-  max-height: 45vh;
+  max-width: 70%;
+  max-height: 45%;
+  margin: 0 14%;
 }
 
 img {
-  max-width: 45vw;
-  max-height: 45vh;
+  max-width: 40%;
+  max-height: 45%;
 }

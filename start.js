@@ -89,6 +89,7 @@ bot.on(["message", "edited_message"], (ctx) => {
                           cwd: msgDirPath,
                         })
                         .sort()
+                        .slice(0, 6)
                         .map((x) => `<img src="${x}" />`)
                         .join("\n")
                     )
